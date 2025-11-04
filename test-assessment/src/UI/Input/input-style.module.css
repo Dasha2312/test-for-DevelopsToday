@@ -1,0 +1,39 @@
+.inputBase {
+  border: 0;
+  min-height: 40px;
+  min-width: 250px;
+  padding: 10px 15px;
+  border: 1px solid lightgray;
+  border-radius: 16px;
+  transition: 0.5s;
+}
+.inputBase:focus {
+  outline: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: 0.5s;
+}
+.relative {
+  position: relative;
+}
+.inputActions {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.passwordType {
+  padding-right: 50px;
+}
+.clearableInput {
+  padding-right: 30px;
+}
+.clearableInput.passwordType {
+  padding-right: 65px;
+}
+

@@ -1,0 +1,9 @@
+.closeIcon {
+  display: block;
+  width: 15px;
+  height: 15px;
+}
+.closeIcon svg {
+  width: 100%;
+  height: 100%;
+}
