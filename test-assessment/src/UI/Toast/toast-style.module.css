@@ -1,0 +1,52 @@
+.toast {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+}
+.toastInner.iconBtn {
+  padding-right: 50px;
+}
+.toastInner {
+  position: relative;
+  padding: 16px;
+}
+.toastBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  z-index: 2;
+  background: transparent;
+  border: 0;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  cursor: pointer;
+}
+.toastBtn svg {
+  height: 100%;
+  width: 100%;
+}
+
+.toast-success {
+  color: #0f5132;
+  background-color: #d1e7dd;
+  border-color: #badbcc;
+}
+.toast-danger {
+  color: #842029;
+  background-color: #f8d7da;
+  border-color: #f5c2c7;
+}
+.toast-warning {
+  color: #664d03;
+  background-color: #fff3cd;
+  border-color: #ffecb5;
+}
+.toast-info {
+  color: #41464b;
+  background-color: #e2e3e5;
+  border-color: #d3d6d8;
+}
