@@ -1,0 +1,50 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  opacity: 0.5;
+}
+
+.sidebar {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 99;
+  width: 320px;
+  height: 100vh;
+  background: #f5f5f5;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 16px 0 0 16px;
+}
+.sidebarInner {
+  position: relative;
+  padding: 60px 0 30px 0;
+  height: calc(100% - 60px);
+  overflow: hidden;
+  overflow-y: auto;
+}
+.sidebarBtn {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  padding: 0;
+  background: transparent;
+  width: 24px;
+  height: 24px;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+.sidebarBtn:hover,
+.sidebarBtn:focus {
+  border: 0;
+  outline: none;
+}
+.sidebarBtn svg {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,27 @@
+.subMenu  {
+  padding-left: 10px;
+}
+.subMenuBtn {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  box-shadow: none;
+  transition: 0.5s;
+  color: black;
+  padding: 10px 25px;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: left;
+  line-height: 24px;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+.subMenuBtn:hover {
+  color: #a2a3a2;
+  transition: 0.5s;
+}
+.subMenuBtn:focus {
+  border: 0;
+  outline: none;
+}
