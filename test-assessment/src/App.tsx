@@ -9,13 +9,13 @@ function App() {
   return (
     <div className='container'>
       <div className='mb-4'>
-        <Input typeInput='password' />
+        <Input typeInput='password' isClearable={true} />
       </div>
       <div className='mb-4'>
         <SidebarMenu menuItems={menuItems} />
       </div>
       <div className='mb-4'>
-        <Toast message="test message here" toastType="success" />
+        <Toast message="test message here" toastType="danger" isIconClose={true} />
       </div>
     </div>
   )
