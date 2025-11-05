@@ -8,9 +8,15 @@ function App() {
 
   return (
     <div className='container'>
-      <Input typeInput='password' />
-      <SidebarMenu menuItems={menuItems} />
-      <Toast message="test message here" toastType="success" />
+      <div className='mb-4'>
+        <Input typeInput='password' />
+      </div>
+      <div className='mb-4'>
+        <SidebarMenu menuItems={menuItems} />
+      </div>
+      <div className='mb-4'>
+        <Toast message="test message here" toastType="success" />
+      </div>
     </div>
   )
 }

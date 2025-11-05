@@ -68,6 +68,9 @@ button:focus-visible {
   margin: 0 auto;
   padding: 0 16px;
 }
+.mb-4 {
+  margin-bottom: 16px;
+}
 
 @media (prefers-color-scheme: light) {
   :root {
